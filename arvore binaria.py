@@ -1,4 +1,6 @@
-#Arvore Binaria para estrutura de dados
+#Arvore Binaria para estrutura de dados.
+# Node é o nó que é o elemento raiz. Cada elemento raiz pode ter 2 filhos.
+# Um nó sem filhos é chamado de folha.
 
 class Node:
     def __init__(self, value):
@@ -52,8 +54,8 @@ arvore.root.right.right = Node(5)
 
 #Imprimindo a arvore binaria
 
-print("Travessia pré ordem: " + arvore.print_arvore("preorder"))
-print("Travessia em ordem: " + arvore.print_arvore("inorder"))
-print("Travessia pós ordem: " + arvore.print_arvore("postorder"))
+print("Pré ordem: " + arvore.print_arvore("preorder"))
+print("Em ordem: " + arvore.print_arvore("inorder"))
+print("Pós ordem: " + arvore.print_arvore("postorder"))
             
 
